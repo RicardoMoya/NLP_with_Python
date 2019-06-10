@@ -25,30 +25,25 @@ El contenido compartido es el siguiente:
 * Conceptos: Corpus, Bag of Words (BoW), Tokenización, N-Grammas, Stemming, Lematización, Stop-Words, Parts of 
 Speech, Named Entity Recognition (NER)
 
-
     * Notebooks:
-        - 02_NLP_Conceptos_NLTK.ipyn
+        - 02_NLP_Conceptos_NLTK.ipynb
         - 03_NLP_Conceptos_spaCy.ipynb
 
 * Normalización de textos: Preprocesamiento
-
 
         * Notebooks:
             - 04_Preprocesamiento_de_textos_Normalizacion.ipynb
             - 05_Bag_of_Words_BoW.ipynb
 
-
 #### Tema 3: Analisis Automático de texto subjetivo (Clasificación de textos)
 
 * Introducción: Clasificación de textos con Naive Bayes
-
 
         * Notebooks:
             - 07_Clasificacion_textos_Naive_Bayes.ipynb
             - 08_NLTK_Clasificacion_Textos_Naive_Bayes.ipynb
 
 * Clasificación de textos: Algoritmos de aprendizaje para la clasificación
-
 
         * Notebooks:
             - 09_Scikit_Clasificacion_Textos.ipynb
@@ -58,7 +53,6 @@ Speech, Named Entity Recognition (NER)
 
 * Clasificación de textos: Redes Neuronales
 
-
         * Notebooks:
             - 15_Keras_MLP_Clasificacion_Textos.ipynb
             - 16_Keras_MLP_Tendencias_Politicas_Twitter.ipynb
@@ -67,13 +61,11 @@ Speech, Named Entity Recognition (NER)
 
 * LSI: Latent Semantic Index
 
-
         * Notebooks:
             - 17_Topic_Modeling.ipynb
             - 18_LSI_Ejemplo_Basico_Topic_Modeling.ipynb
 
 * LDA: Latent Dirichlet Allocation
-
 
         * Notebooks:
             - 19_LDA_Ejemplo_Basico_Topic_Modeling.ipynb
