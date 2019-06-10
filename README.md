@@ -25,9 +25,9 @@ El contenido compartido es el siguiente:
 * Conceptos: Corpus, Bag of Words (BoW), Tokenización, N-Grammas, Stemming, Lematización, Stop-Words, Parts of 
 Speech, Named Entity Recognition (NER)
 
-    * Notebooks:
-        - 02_NLP_Conceptos_NLTK.ipynb
-        - 03_NLP_Conceptos_spaCy.ipynb
+        * Notebooks:
+             - 02_NLP_Conceptos_NLTK.ipynb
+             - 03_NLP_Conceptos_spaCy.ipynb
 
 * Normalización de textos: Preprocesamiento
 
