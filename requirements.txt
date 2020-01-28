@@ -2,6 +2,6 @@ nltk==3.4.0
 gensim==3.4.0
 spacy==2.0.9
 keras==2.2.4
-tensorflow==1.12.1
+tensorflow==1.15.2
 pyLDAvis==2.1.2
 tweepy==3.7.0
