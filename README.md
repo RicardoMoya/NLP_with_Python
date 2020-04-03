@@ -1,8 +1,7 @@
 # Procesamiento del Lenguaje Natural, con Python
 
 * Autor: Ricardo Moya García, PhD
-* Release: 0.0.4
-* Fecha última actualización: 10-06-2019
+* Fecha última actualización: 03-04-2020
 
 
 <hr>
@@ -62,6 +61,7 @@ Speech, Named Entity Recognition (NER)
         * Notebooks:
             - 15_Keras_MLP_Clasificacion_Textos.ipynb
             - 16_Keras_MLP_Tendencias_Politicas_Twitter.ipynb
+            - 17_Keras_LSTM_Tendencias_Politicas_Twitter.ipynb
 
 #### Tema 4: Topic Modeling (Clustering)
 
@@ -69,16 +69,16 @@ Speech, Named Entity Recognition (NER)
 
 
         * Notebooks:
-            - 17_Topic_Modeling.ipynb
-            - 18_LSI_Ejemplo_Basico_Topic_Modeling.ipynb
+            - 18_Topic_Modeling.ipynb
+            - 19_LSI_Ejemplo_Basico_Topic_Modeling.ipynb
 
 * LDA: Latent Dirichlet Allocation
 
 
         * Notebooks:
-            - 19_LDA_Ejemplo_Basico_Topic_Modeling.ipynb
-            - 20_Topic_Modeling_noticias.ipynb
-            - 21_Topic_Modeling_Tweets_Politica.ipynb
+            - 20_LDA_Ejemplo_Basico_Topic_Modeling.ipynb
+            - 21_Topic_Modeling_noticias.ipynb
+            - 22_Topic_Modeling_Tweets_Politica.ipynb
 
 
 <hr>
