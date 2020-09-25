@@ -2,7 +2,7 @@ nltk==3.4.5
 gensim==3.4.0
 spacy==2.0.9
 keras==2.2.4
-tensorflow==2.0.1
+tensorflow==2.0.3
 pyLDAvis==2.1.2
 tweepy==3.8.0
 wordcloud==1.6.0
