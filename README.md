@@ -15,62 +15,54 @@ El contenido compartido es el siguiente:
 
 #### Tema 1: Introducción
 
-    * Notebooks:
-        - 00_Introduccion_NLP.ipynb
-        - 01_NLTK_Introduccion.ipynb
+- [00_Introduccion_NLP.ipynb](https://github.com/RicardoMoya/NLP_with_Python/blob/master/00_Introduccion_NLP.ipynb)
+- [01_NLTK_Introduccion.ipynb](https://github.com/RicardoMoya/NLP_with_Python/blob/master/01_NLTK_Introduccion.ipynb)
 
 #### Tema 2: NLP - Conceptos y Preprocesamiento de texto
 
 * Conceptos: Corpus, Bag of Words (BoW), Tokenización, N-Grammas, Stemming, Lematización, Stop-Words, Parts of 
 Speech, Named Entity Recognition (NER)
 
-        * Notebooks:
-             - 02_NLP_Conceptos_NLTK.ipynb
-             - 03_NLP_Conceptos_spaCy.ipynb
+- [02_NLP_Conceptos_NLTK.ipynb](https://github.com/RicardoMoya/NLP_with_Python/blob/master/02_NLP_Conceptos_NLTK.ipynb)
+- [03_NLP_Conceptos_spaCy.ipynb](https://github.com/RicardoMoya/NLP_with_Python/blob/master/03_NLP_Conceptos_spaCy.ipynb)
 
 * Normalización de textos: Preprocesamiento
 
-        * Notebooks:
-            - 04_Preprocesamiento_de_textos_Normalizacion.ipynb
-            - 05_Bag_of_Words_BoW.ipynb
+- [04_Preprocesamiento_de_textos_Normalizacion.ipynb](https://github.com/RicardoMoya/NLP_with_Python/blob/master/04_Preprocesamiento_de_textos_Normalizacion.ipynb)
+- [05_Bag_of_Words_BoW.ipynb](https://github.com/RicardoMoya/NLP_with_Python/blob/master/05_Bag_of_Words_BoW.ipynb)
 
 #### Tema 3: Analisis Automático de texto subjetivo (Clasificación de textos)
 
 * Introducción: Clasificación de textos con Naive Bayes
 
-        * Notebooks:
-            - 07_Clasificacion_textos_Naive_Bayes.ipynb
-            - 08_NLTK_Clasificacion_Textos_Naive_Bayes.ipynb
+- [07_Clasificacion_textos_Naive_Bayes.ipynb](https://github.com/RicardoMoya/NLP_with_Python/blob/master/07_Clasificacion_textos_Naive_Bayes.ipynb)
+- [08_NLTK_Clasificacion_Textos_Naive_Bayes.ipynb](https://github.com/RicardoMoya/NLP_with_Python/blob/master/08_NLTK_Clasificacion_Textos_Naive_Bayes.ipynb)
 
 * Clasificación de textos: Algoritmos de aprendizaje para la clasificación
 
-        * Notebooks:
-            - 09_Scikit_Clasificacion_Textos.ipynb
-            - 11_NLTK_Scikit_Clasificacion_Textos.ipynb
-            - 13_PoC_Tendencias_Politicas_Twitter_Generacion_Exportacion_Modelos.ipynb
-            - 14_PoC_Tendencias_Politicas_Twitter_Prediccion.ipynb
+- [09_Scikit_Clasificacion_Textos.ipynb](https://github.com/RicardoMoya/NLP_with_Python/blob/master/09_Scikit_Clasificacion_Textos.ipynb)
+- [11_NLTK_Scikit_Clasificacion_Textos.ipynb](https://github.com/RicardoMoya/NLP_with_Python/blob/master/11_NLTK_Scikit_Clasificacion_Textos.ipynb)
+- [13_PoC_Tendencias_Politicas_Twitter_Generacion_Exportacion_Modelos.ipynb](https://github.com/RicardoMoya/NLP_with_Python/blob/master/13_PoC_Tendencias_Politicas_Twitter_Generacion_Exportacion_Modelos.ipynb)
+- [14_PoC_Tendencias_Politicas_Twitter_Prediccion.ipynb](https://github.com/RicardoMoya/NLP_with_Python/blob/master/14_PoC_Tendencias_Politicas_Twitter_Prediccion.ipynb)
 
 * Clasificación de textos: Redes Neuronales
 
-        * Notebooks:
-            - 15_Keras_MLP_Clasificacion_Textos.ipynb
-            - 16_Keras_MLP_Tendencias_Politicas_Twitter.ipynb
-            - 17_Keras_LSTM_Tendencias_Politicas_Twitter.ipynb
+- [15_Keras_MLP_Clasificacion_Textos.ipynb](https://github.com/RicardoMoya/NLP_with_Python/blob/master/15_TensorFlow_Keras_MLP_Clasificacion_Textos.ipynb)
+- [16_Keras_MLP_Tendencias_Politicas_Twitter.ipynb](https://github.com/RicardoMoya/NLP_with_Python/blob/master/16_TensorFlow_Keras_MLP_Tendencias_Politicas_Twitter.ipynb)
+- [17_Keras_LSTM_Tendencias_Politicas_Twitter.ipynb](https://github.com/RicardoMoya/NLP_with_Python/blob/master/17_TensorFlow_Keras_LSTM_Tendencias_Politicas_Twitter.ipynb)
 
 #### Tema 4: Topic Modeling (Clustering)
 
 * LSI: Latent Semantic Index
 
-        * Notebooks:
-            - 18_Topic_Modeling.ipynb
-            - 19_LSI_Ejemplo_Basico_Topic_Modeling.ipynb
+- [18_Topic_Modeling.ipynb](https://github.com/RicardoMoya/NLP_with_Python/blob/master/18_Topic_Modeling.ipynb)
+- [19_LSI_Ejemplo_Basico_Topic_Modeling.ipynb](https://github.com/RicardoMoya/NLP_with_Python/blob/master/19_LSI_Ejemplo_Basico_Topic_Modeling.ipynb)
 
 * LDA: Latent Dirichlet Allocation
 
-        * Notebooks:
-            - 20_LDA_Ejemplo_Basico_Topic_Modeling.ipynb
-            - 21_Topic_Modeling_noticias.ipynb
-            - 22_Topic_Modeling_Tweets_Politica.ipynb
+- [20_LDA_Ejemplo_Basico_Topic_Modeling.ipynb](https://github.com/RicardoMoya/NLP_with_Python/blob/master/20_LDA_Ejemplo_Basico_Topic_Modeling.ipynb)
+- [21_Topic_Modeling_noticias.ipynb](https://github.com/RicardoMoya/NLP_with_Python/blob/master/21_Topic_Modeling_noticias.ipynb)
+- [22_Topic_Modeling_Tweets_Politica.ipynb](https://github.com/RicardoMoya/NLP_with_Python/blob/master/22_Topic_Modeling_Tweets_Politica.ipynb)
 
 
 <hr>
