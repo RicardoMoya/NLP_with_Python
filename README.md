@@ -87,59 +87,36 @@ A continuación se muestran los pasos a seguir para crear el entorno virtual con
 
 `Nota: estos mismos pasos pueden realizarse también por medio del Anaconda Navigator.`
 
-1.- Crear un entorno virtual con un python 3.6 llamado "python36_NLP"
+<hr>
 
+## Instalación Entorno Virtual Conda - DeepLearning
+
+* Pasos para la creación de un Virtualenv con conda e instalación de las librerías necesarias
+
+1.- Creación del entorno virtual "*Python37_NLP*" con un python 3.7
 ```
->> conda create -n python36_NLP python=3.6 anaconda
+>> conda create -n Python37_NLP python=3.7 anaconda
 ```
+
 2.- Activar el entorno virtual
 
-En primer lugar podemos listar todos los entornos que tenemos con:
 ```
->> conda env list
+>> conda activate Python37_NLP
 ```
-Luego activamos el entorno de la siguiente manera
-```
->> conda activate python36_NLP
-```
-3.- Instalar librerias (con conda):
 
-Para instalar las librerias de forma manual podemos hacerlo:
+3.- Instalar librerías especificadas en el fichero requirements.txt:
+
 ```
->> conda install -n python36_NLP nombre_libreria==VERSION
+>> pip install -r requirements.txt
 ```
-O también (en caso de que esa librería no este en el repositorio de conda) lo podemos hacer con pip de la siguiente 
-manera, teniendo activado el entorno virtual:
+
+* En caso de tener algún problema con la instalación de alguna de las librerías, proceder a instalar la librería 
+  manualmente de la siguiente manera:
+  
 ```
 >> pip install nombre_libreria==VERSION
 ```
-Por ejemplo para instalar la librería de NLTK lo podríamos hacer de alguna de estas 2 formas:
-```
->> conda install -n python36_NLP NLTK==3.4.0
-Ó
->> pip install -n NLTK==3.4.0
-```
-Como instalar las librerías de 1 en 1 es un "rollo", podemos instalar todas las librerías que tengamos definidas en 
-un fichero de "requirements.txt" de la siguiente manera (solo para Linux o MAC):
-```
->> conda install --yes --file requirements.txt
-```
-De esta manera instala todas las librerías (con sus correspondientes versiones) que hay en cada una de las lineas del
- fichero.
- 
-Esta manera de intalar esta librerías tiene un inconveniente y es que si una de esas librería no esta disponible en 
-el repositorio de conda no la instala y da un error. Para ello podemos realizar la instalación de la siguiente 
-manera; haciendo que, si no esta la librería disponible en la paquetería de conda lo instale con pip (esto es válido 
-solo para sistemas Linux o MAC):
-```
->> while read requirement; do conda install --yes $requirement || pip install $requirement; done < requirements.txt
-```
-
-Para hacer esto mismo en sistemas Windows hay que hacerlo de la siguiente manera:
-```
->> FOR /F "delims=~" %f in (requirements.txt) DO conda install --yes "%f" || pip install "%f"
-```
-`Nota: no aseguro 100% que este último comando funcione para todas las versiones de windows`
+  
 
 #### Bonus Track Anaconda
 
@@ -147,14 +124,13 @@ A continuación se muestran algunas acciones extra:
 
 1.- Desinstalar librerías con conda y pip respectivamente:
 ```
->> conda uninstall -n python36_NLP nombre_libreria
 >> pip uninstall nombre_libreria
 ```
 2.- Desactivar el entorno virtual (previamente tiene que estar activado)
 ```
 >> conda deactivate
 ```
-3.- Eliminar entorno virtual (llamado "python36_NLP")
+3.- Eliminar entorno virtual (llamado "Python37_NLP")
 ```
->> conda remove -n python36_NLP -all
+>> conda remove -n Python37_NLP -all
 ```
