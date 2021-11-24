@@ -3,7 +3,7 @@ nltk==3.4.5
 pyLDAvis==2.1.2
 spacy==3.0.5
 tensorflow==2.6.0
-tensorflow-gpu==2.6.0
+tensorflow-gpu==2.6.1
 tqdm
 tweepy==3.8.0
 wordcloud==1.6.0
