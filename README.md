@@ -1,7 +1,7 @@
 # Procesamiento del Lenguaje Natural, con Python
 
 * Autor: Ricardo Moya García, PhD
-* Fecha última actualización: 03-04-2020
+* Fecha última actualización: 24-11-2021
 
 
 <hr>
