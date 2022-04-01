@@ -1,6 +1,6 @@
 flair==0.10
 gensim==3.4.0
-nltk==3.6.5
+nltk==3.6.6
 pyLDAvis==2.1.2
 spacy==3.0.5
 tensorflow==2.6.1
